@@ -4,5 +4,6 @@
     {
         public string ObjectId { get; set; } = string.Empty;
         public string ConfirmationTime { get; set; } = string.Empty;
+        public bool IsUserExists { get; set; }
     }
 }

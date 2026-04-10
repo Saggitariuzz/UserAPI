@@ -1,9 +1,28 @@
+using Confluent.Kafka;
+using Microsoft.Extensions.Options;
 using Prometheus;
 using UserAPI.Services;
 using UserAPI.Services.Impl;
 using UserAPI.Settings;
 
 var builder = WebApplication.CreateBuilder(args);
+
+var kafkaSettingsSection = builder.Configuration.GetSection("KafkaConfig");
+builder.Services.Configure<KafkaSettings>(kafkaSettingsSection);
+var kafkaSettings = kafkaSettingsSection.Get<KafkaSettings>();
+
+builder.Services.AddSingleton<IProducer<Null, string>>(sp =>
+{
+    var settings = sp.GetRequiredService<IOptions<KafkaSettings>>().Value;
+    var config = new ProducerConfig
+    {
+        BootstrapServers = settings.BootstrapServers,
+        Acks = Acks.All,
+        EnableIdempotence = true,
+        LingerMs = 5
+    };
+    return new ProducerBuilder<Null, string>(config).Build();
+});
 
 // Add services to the container.
 builder.Services.AddSingleton<IUserService, UserService>();
