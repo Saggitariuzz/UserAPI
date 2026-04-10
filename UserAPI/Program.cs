@@ -1,7 +1,7 @@
 using Prometheus;
-using UserAPI;
 using UserAPI.Services;
 using UserAPI.Services.Impl;
+using UserAPI.Settings;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,10 +10,12 @@ builder.Services.AddSingleton<IUserService, UserService>();
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddHostedService<KafkaUserProcessingService>();
 
 builder.Services.Configure<UsersDBSettings>(
     builder.Configuration.GetSection("UsersDB"));
-
+builder.Services.Configure<KafkaSettings>(
+    builder.Configuration.GetSection("KafkaConfig"));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.Options;
 using MongoDB.Driver;
 using UserAPI.Models;
+using UserAPI.Settings;
 
 namespace UserAPI.Services.Impl
 {

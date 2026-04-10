@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "n1JHdp8R8TQ=",
+  "dgSpecHash": "Wz88aKFH1wQ=",
   "success": true,
   "projectFilePath": "D:\\microservices\\UserAPI\\UserAPI\\UserAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kosti\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\kosti\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
+    "C:\\Users\\kosti\\.nuget\\packages\\confluent.kafka\\2.14.0\\confluent.kafka.2.14.0.nupkg.sha512",
     "C:\\Users\\kosti\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
+    "C:\\Users\\kosti\\.nuget\\packages\\librdkafka.redist\\2.14.0\\librdkafka.redist.2.14.0.nupkg.sha512",
     "C:\\Users\\kosti\\.nuget\\packages\\microsoft.extensions.apidescription.server\\9.0.0\\microsoft.extensions.apidescription.server.9.0.0.nupkg.sha512",
     "C:\\Users\\kosti\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\10.0.5\\microsoft.extensions.caching.abstractions.10.0.5.nupkg.sha512",
     "C:\\Users\\kosti\\.nuget\\packages\\microsoft.extensions.caching.stackexchangeredis\\10.0.5\\microsoft.extensions.caching.stackexchangeredis.10.0.5.nupkg.sha512",

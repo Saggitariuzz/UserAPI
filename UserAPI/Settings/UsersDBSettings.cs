@@ -1,4 +1,4 @@
-﻿namespace UserAPI
+﻿namespace UserAPI.Settings
 {
     public class UsersDBSettings
     {
