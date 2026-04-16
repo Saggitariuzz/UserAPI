@@ -25,9 +25,7 @@ namespace UserAPI.Services.Impl
 
         public async Task<User> GetUserAsync(string id)
         {
-            User user;
-            user = await _userCollection.Find(x => x.Id == id).FirstOrDefaultAsync();
-            return user;
+            return await _userCollection.Find(x => x.Id == id).FirstOrDefaultAsync();
         }
 
         public async Task CreateAsync(User user)
@@ -43,6 +41,12 @@ namespace UserAPI.Services.Impl
         public async Task DeleteAsync(string id)
         {
             await _userCollection.DeleteOneAsync(x => x.Id == id);
+        }
+
+        public async Task<User> AuthenticateAsync(string login, string password)
+        {
+            return await _userCollection.Find(x => x.Login == login && x.Password == password)
+                .FirstOrDefaultAsync();
         }
     }
 }

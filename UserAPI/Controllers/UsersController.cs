@@ -4,18 +4,31 @@ using UserAPI.DTOs;
 using UserAPI.Services;
 using UserAPI.Mappers;
 using MongoDB.Bson;
+using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
+using System.IdentityModel.Tokens.Jwt;
+using UserAPI.Settings;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.AspNetCore.Authentication;
 
 namespace UserAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class UsersController : ControllerBase
     {
         private readonly IUserService _userService;
 
-        public UsersController(IUserService userService)
+        private readonly ITokenService _tokenService;
+
+        private readonly ITokenBlackListService _tokenBlackListService;
+
+        public UsersController(IUserService userService, ITokenService tokenService, ITokenBlackListService tokenBlackListService)
         {
             _userService = userService;
+            _tokenService = tokenService;
+            _tokenBlackListService = tokenBlackListService;
         }
 
         [HttpGet]
@@ -43,6 +56,7 @@ namespace UserAPI.Controllers
         }
 
         [HttpPost]
+        [AllowAnonymous]
         public async Task<ActionResult<UserReadDto>> Create([FromBody] UserCreateDto ucd)
         {
             var entity = UserMapper.MapUserCreateDtoToUser(ucd);
@@ -82,6 +96,31 @@ namespace UserAPI.Controllers
             }
             await _userService.DeleteAsync(id);
             return NoContent();
+        }
+
+        [HttpPost("login")]
+        [AllowAnonymous]
+        public async Task<IActionResult> Login([FromBody] UserLoginDto uld)
+        {
+            var user = await _userService.AuthenticateAsync(uld.Login, uld.Password);
+            if(user == null)
+            {
+                return Unauthorized(new {message = "Неверный логин или пароль"});
+            }
+            var encodedToken = _tokenService.GenerateToken(user);
+            return Ok(new { token = encodedToken });
+        }
+
+        [HttpPost("logout")]
+        public async Task<IActionResult> Logout()
+        {
+            var token = await HttpContext.GetTokenAsync("access_token");
+            if (string.IsNullOrEmpty(token))
+            {
+                return BadRequest();
+            }
+            await _tokenBlackListService.DeactivateTokenAsync(token);
+            return Ok(new { message = "Вы успешно вышли из учетной записи" });
         }
     }
 }

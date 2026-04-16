@@ -3,40 +3,80 @@
   "WorkspaceRootPath": "D:\\microservices\\UserAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|d:\\microservices\\userapi\\userapi\\services\\kafkauserprocessingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\services\\kafkauserprocessingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|d:\\microservices\\userapi\\userapi\\kafkamodels\\objectconfirmationmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\kafkamodels\\objectconfirmationmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|d:\\microservices\\userapi\\userapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|d:\\microservices\\userapi\\userapi\\settings\\kafkasettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\settings\\kafkasettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|d:\\microservices\\userapi\\userapi\\services\\impl\\tokenblacklistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\services\\impl\\tokenblacklistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|d:\\microservices\\userapi\\userapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|d:\\microservices\\userapi\\userapi\\settings\\usersdbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\settings\\usersdbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|d:\\microservices\\userapi\\userapi\\services\\itokenblacklistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\services\\itokenblacklistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|d:\\microservices\\userapi\\userapi\\services\\impl\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\services\\impl\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|d:\\microservices\\userapi\\userapi\\kafkamodels\\objectcreationmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\kafkamodels\\objectcreationmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|d:\\microservices\\userapi\\userapi\\services\\impl\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\services\\impl\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|d:\\microservices\\userapi\\userapi\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|d:\\microservices\\userapi\\userapi\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|d:\\microservices\\userapi\\userapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|d:\\microservices\\userapi\\userapi\\services\\kafkauserprocessingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\services\\kafkauserprocessingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|d:\\microservices\\userapi\\userapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|d:\\microservices\\userapi\\userapi\\settings\\authoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\settings\\authoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|d:\\microservices\\userapi\\userapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|d:\\microservices\\userapi\\userapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|d:\\microservices\\userapi\\userapi\\dtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\dtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|d:\\microservices\\userapi\\userapi\\dtos\\usercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\dtos\\usercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|d:\\microservices\\userapi\\userapi\\kafkamodels\\objectconfirmationmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\kafkamodels\\objectconfirmationmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|d:\\microservices\\userapi\\userapi\\settings\\kafkasettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\settings\\kafkasettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|d:\\microservices\\userapi\\userapi\\settings\\usersdbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\settings\\usersdbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|d:\\microservices\\userapi\\userapi\\kafkamodels\\objectcreationmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\kafkamodels\\objectcreationmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|d:\\microservices\\userapi\\userapi\\mappers\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,20 +87,12 @@
       "RelativeMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|d:\\microservices\\userapi\\userapi\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|d:\\microservices\\userapi\\userapi\\dtos\\userreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\dtos\\userreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|d:\\microservices\\userapi\\userapi\\dtos\\userupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\dtos\\userupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|d:\\microservices\\userapi\\userapi\\dtos\\usercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57B78312-D366-4DF5-AFF1-D53202460807}|UserAPI\\UserAPI.csproj|solutionrelative:userapi\\dtos\\usercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,7 +106,200 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TokenBlackListService.cs",
+              "DocumentMoniker": "D:\\microservices\\UserAPI\\UserAPI\\Services\\Impl\\TokenBlackListService.cs",
+              "RelativeDocumentMoniker": "UserAPI\\Services\\Impl\\TokenBlackListService.cs",
+              "ToolTip": "D:\\microservices\\UserAPI\\UserAPI\\Services\\Impl\\TokenBlackListService.cs",
+              "RelativeToolTip": "UserAPI\\Services\\Impl\\TokenBlackListService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T17:53:27.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\microservices\\UserAPI\\UserAPI\\Program.cs",
+              "RelativeDocumentMoniker": "UserAPI\\Program.cs",
+              "ToolTip": "D:\\microservices\\UserAPI\\UserAPI\\Program.cs",
+              "RelativeToolTip": "UserAPI\\Program.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAIwEkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T16:16:06.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\microservices\\UserAPI\\UserAPI\\Services\\Impl\\UserService.cs",
+              "RelativeDocumentMoniker": "UserAPI\\Services\\Impl\\UserService.cs",
+              "ToolTip": "D:\\microservices\\UserAPI\\UserAPI\\Services\\Impl\\UserService.cs",
+              "RelativeToolTip": "UserAPI\\Services\\Impl\\UserService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T16:56:59.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ITokenBlackListService.cs",
+              "DocumentMoniker": "D:\\microservices\\UserAPI\\UserAPI\\Services\\ITokenBlackListService.cs",
+              "RelativeDocumentMoniker": "UserAPI\\Services\\ITokenBlackListService.cs",
+              "ToolTip": "D:\\microservices\\UserAPI\\UserAPI\\Services\\ITokenBlackListService.cs",
+              "RelativeToolTip": "UserAPI\\Services\\ITokenBlackListService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T17:43:24.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "D:\\microservices\\UserAPI\\UserAPI\\Services\\Impl\\TokenService.cs",
+              "RelativeDocumentMoniker": "UserAPI\\Services\\Impl\\TokenService.cs",
+              "ToolTip": "D:\\microservices\\UserAPI\\UserAPI\\Services\\Impl\\TokenService.cs",
+              "RelativeToolTip": "UserAPI\\Services\\Impl\\TokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T16:02:37.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "D:\\microservices\\UserAPI\\UserAPI\\Services\\ITokenService.cs",
+              "RelativeDocumentMoniker": "UserAPI\\Services\\ITokenService.cs",
+              "ToolTip": "D:\\microservices\\UserAPI\\UserAPI\\Services\\ITokenService.cs",
+              "RelativeToolTip": "UserAPI\\Services\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T16:02:09.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\microservices\\UserAPI\\UserAPI\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "UserAPI\\Services\\IUserService.cs",
+              "ToolTip": "D:\\microservices\\UserAPI\\UserAPI\\Services\\IUserService.cs",
+              "RelativeToolTip": "UserAPI\\Services\\IUserService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAEwBAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T16:31:05.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\microservices\\UserAPI\\UserAPI\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "UserAPI\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\microservices\\UserAPI\\UserAPI\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "UserAPI\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAgwGgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T17:09:08.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "KafkaUserProcessingService.cs",
+              "DocumentMoniker": "D:\\microservices\\UserAPI\\UserAPI\\Services\\KafkaUserProcessingService.cs",
+              "RelativeDocumentMoniker": "UserAPI\\Services\\KafkaUserProcessingService.cs",
+              "ToolTip": "D:\\microservices\\UserAPI\\UserAPI\\Services\\KafkaUserProcessingService.cs",
+              "RelativeToolTip": "UserAPI\\Services\\KafkaUserProcessingService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAEwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T16:06:05.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\microservices\\UserAPI\\UserAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "UserAPI\\appsettings.json",
+              "ToolTip": "D:\\microservices\\UserAPI\\UserAPI\\appsettings.json",
+              "RelativeToolTip": "UserAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-16T17:38:18.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\microservices\\UserAPI\\UserAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "UserAPI\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\microservices\\UserAPI\\UserAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "UserAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-16T16:24:34.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\microservices\\UserAPI\\UserAPI\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "UserAPI\\appsettings.Development.json",
+              "ToolTip": "D:\\microservices\\UserAPI\\UserAPI\\appsettings.Development.json",
+              "RelativeToolTip": "UserAPI\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-08T16:20:19.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuthOptions.cs",
+              "DocumentMoniker": "D:\\microservices\\UserAPI\\UserAPI\\Settings\\AuthOptions.cs",
+              "RelativeDocumentMoniker": "UserAPI\\Settings\\AuthOptions.cs",
+              "ToolTip": "D:\\microservices\\UserAPI\\UserAPI\\Settings\\AuthOptions.cs",
+              "RelativeToolTip": "UserAPI\\Settings\\AuthOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T15:38:54.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserLoginDto.cs",
+              "DocumentMoniker": "D:\\microservices\\UserAPI\\UserAPI\\DTOs\\UserLoginDto.cs",
+              "RelativeDocumentMoniker": "UserAPI\\DTOs\\UserLoginDto.cs",
+              "ToolTip": "D:\\microservices\\UserAPI\\UserAPI\\DTOs\\UserLoginDto.cs",
+              "RelativeToolTip": "UserAPI\\DTOs\\UserLoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T15:41:16.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserCreateDto.cs",
+              "DocumentMoniker": "D:\\microservices\\UserAPI\\UserAPI\\DTOs\\UserCreateDto.cs",
+              "RelativeDocumentMoniker": "UserAPI\\DTOs\\UserCreateDto.cs",
+              "ToolTip": "D:\\microservices\\UserAPI\\UserAPI\\DTOs\\UserCreateDto.cs",
+              "RelativeToolTip": "UserAPI\\DTOs\\UserCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T16:36:55.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "KafkaSettings.cs",
               "DocumentMoniker": "D:\\microservices\\UserAPI\\UserAPI\\Settings\\KafkaSettings.cs",
               "RelativeDocumentMoniker": "UserAPI\\Settings\\KafkaSettings.cs",
@@ -82,38 +307,11 @@
               "RelativeToolTip": "UserAPI\\Settings\\KafkaSettings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T17:06:53.98Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-09T17:06:53.98Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "KafkaUserProcessingService.cs",
-              "DocumentMoniker": "D:\\microservices\\UserAPI\\UserAPI\\Services\\KafkaUserProcessingService.cs",
-              "RelativeDocumentMoniker": "UserAPI\\Services\\KafkaUserProcessingService.cs",
-              "ToolTip": "D:\\microservices\\UserAPI\\UserAPI\\Services\\KafkaUserProcessingService.cs",
-              "RelativeToolTip": "UserAPI\\Services\\KafkaUserProcessingService.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAwwD4AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T16:06:05.294Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\microservices\\UserAPI\\UserAPI\\Program.cs",
-              "RelativeDocumentMoniker": "UserAPI\\Program.cs",
-              "ToolTip": "D:\\microservices\\UserAPI\\UserAPI\\Program.cs",
-              "RelativeToolTip": "UserAPI\\Program.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAABMAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T16:16:06.155Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 15,
               "Title": "ObjectConfirmationMessage.cs",
               "DocumentMoniker": "D:\\microservices\\UserAPI\\UserAPI\\KafkaModels\\ObjectConfirmationMessage.cs",
               "RelativeDocumentMoniker": "UserAPI\\KafkaModels\\ObjectConfirmationMessage.cs",
@@ -121,24 +319,11 @@
               "RelativeToolTip": "UserAPI\\KafkaModels\\ObjectConfirmationMessage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T15:58:19.763Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-09T15:58:19.763Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\microservices\\UserAPI\\UserAPI\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "UserAPI\\appsettings.Development.json",
-              "ToolTip": "D:\\microservices\\UserAPI\\UserAPI\\appsettings.Development.json",
-              "RelativeToolTip": "UserAPI\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-08T16:20:19.521Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 17,
               "Title": "UsersDBSettings.cs",
               "DocumentMoniker": "D:\\microservices\\UserAPI\\UserAPI\\Settings\\UsersDBSettings.cs",
               "RelativeDocumentMoniker": "UserAPI\\Settings\\UsersDBSettings.cs",
@@ -150,7 +335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 18,
               "Title": "ObjectCreationMessage.cs",
               "DocumentMoniker": "D:\\microservices\\UserAPI\\UserAPI\\KafkaModels\\ObjectCreationMessage.cs",
               "RelativeDocumentMoniker": "UserAPI\\KafkaModels\\ObjectCreationMessage.cs",
@@ -162,31 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "D:\\microservices\\UserAPI\\UserAPI\\Services\\Impl\\UserService.cs",
-              "RelativeDocumentMoniker": "UserAPI\\Services\\Impl\\UserService.cs",
-              "ToolTip": "D:\\microservices\\UserAPI\\UserAPI\\Services\\Impl\\UserService.cs",
-              "RelativeToolTip": "UserAPI\\Services\\Impl\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T16:56:59.417Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "D:\\microservices\\UserAPI\\UserAPI\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "UserAPI\\Controllers\\UsersController.cs",
-              "ToolTip": "D:\\microservices\\UserAPI\\UserAPI\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "UserAPI\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAowA8AAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T17:09:08.696Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 19,
               "Title": "UserMapper.cs",
               "DocumentMoniker": "D:\\microservices\\UserAPI\\UserAPI\\Mappers\\UserMapper.cs",
               "RelativeDocumentMoniker": "UserAPI\\Mappers\\UserMapper.cs",
@@ -198,7 +359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 20,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\microservices\\UserAPI\\UserAPI\\Models\\User.cs",
               "RelativeDocumentMoniker": "UserAPI\\Models\\User.cs",
@@ -210,19 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "D:\\microservices\\UserAPI\\UserAPI\\Services\\IUserService.cs",
-              "RelativeDocumentMoniker": "UserAPI\\Services\\IUserService.cs",
-              "ToolTip": "D:\\microservices\\UserAPI\\UserAPI\\Services\\IUserService.cs",
-              "RelativeToolTip": "UserAPI\\Services\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T16:31:05.936Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 21,
               "Title": "UserReadDto.cs",
               "DocumentMoniker": "D:\\microservices\\UserAPI\\UserAPI\\DTOs\\UserReadDto.cs",
               "RelativeDocumentMoniker": "UserAPI\\DTOs\\UserReadDto.cs",
@@ -234,7 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 22,
               "Title": "UserUpdateDto.cs",
               "DocumentMoniker": "D:\\microservices\\UserAPI\\UserAPI\\DTOs\\UserUpdateDto.cs",
               "RelativeDocumentMoniker": "UserAPI\\DTOs\\UserUpdateDto.cs",
@@ -243,18 +392,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-08T16:46:29.54Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UserCreateDto.cs",
-              "DocumentMoniker": "D:\\microservices\\UserAPI\\UserAPI\\DTOs\\UserCreateDto.cs",
-              "RelativeDocumentMoniker": "UserAPI\\DTOs\\UserCreateDto.cs",
-              "ToolTip": "D:\\microservices\\UserAPI\\UserAPI\\DTOs\\UserCreateDto.cs",
-              "RelativeToolTip": "UserAPI\\DTOs\\UserCreateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T16:36:55.058Z"
             }
           ]
         },

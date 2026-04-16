@@ -13,5 +13,7 @@ namespace UserAPI.Services
         Task UpdateAsync(string id, User user);
 
         Task DeleteAsync(string id);
+
+        Task<User> AuthenticateAsync(string login, string password);
     }
 }
