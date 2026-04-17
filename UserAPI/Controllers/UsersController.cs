@@ -10,6 +10,7 @@ using System.IdentityModel.Tokens.Jwt;
 using UserAPI.Settings;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.AspNetCore.Authentication;
+using Prometheus;
 
 namespace UserAPI.Controllers
 {
@@ -23,6 +24,10 @@ namespace UserAPI.Controllers
         private readonly ITokenService _tokenService;
 
         private readonly ITokenBlackListService _tokenBlackListService;
+
+        private static readonly Counter LoginCounter = Metrics.CreateCounter("auth_login_total", "Количество попыток входа", "status");
+        
+        private static readonly Counter LogoutCounter = Metrics.CreateCounter("auth_logout_total", "Количество выходов из системы");
 
         public UsersController(IUserService userService, ITokenService tokenService, ITokenBlackListService tokenBlackListService)
         {
@@ -105,8 +110,10 @@ namespace UserAPI.Controllers
             var user = await _userService.AuthenticateAsync(uld.Login, uld.Password);
             if(user == null)
             {
+                LoginCounter.WithLabels("failure").Inc();
                 return Unauthorized(new {message = "Неверный логин или пароль"});
             }
+            LoginCounter.WithLabels("success").Inc();
             var encodedToken = _tokenService.GenerateToken(user);
             return Ok(new { token = encodedToken });
         }
@@ -119,6 +126,7 @@ namespace UserAPI.Controllers
             {
                 return BadRequest();
             }
+            LogoutCounter.Inc();
             await _tokenBlackListService.DeactivateTokenAsync(token);
             return Ok(new { message = "Вы успешно вышли из учетной записи" });
         }

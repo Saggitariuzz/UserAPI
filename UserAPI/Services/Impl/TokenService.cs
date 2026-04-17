@@ -1,6 +1,8 @@
-﻿using Microsoft.IdentityModel.Tokens;
+﻿using Microsoft.Extensions.Options;
+using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
+using System.Text;
 using UserAPI.Models;
 using UserAPI.Settings;
 
@@ -8,6 +10,14 @@ namespace UserAPI.Services.Impl
 {
     public class TokenService : ITokenService
     {
+
+        private readonly AuthOptions authOptions;
+
+        public TokenService(IOptions<AuthOptions> options)
+        {
+            authOptions = options.Value;
+        }
+
         public string GenerateToken(User user)
         {
             var claims = new List<Claim>
@@ -17,11 +27,11 @@ namespace UserAPI.Services.Impl
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
             };
             var jwt = new JwtSecurityToken(
-                issuer: AuthOptions.ISSUER,
-                audience: AuthOptions.AUDIENCE,
+                issuer: authOptions.Issuer,
+                audience: authOptions.Audience,
                 claims: claims,
                 expires: DateTime.UtcNow.Add(TimeSpan.FromMinutes(2)),
-                signingCredentials: new SigningCredentials(AuthOptions.GetSymmetricSecurityKey(), SecurityAlgorithms.HmacSha256));
+                signingCredentials: new SigningCredentials(new SymmetricSecurityKey(Encoding.UTF8.GetBytes(authOptions.Key)), SecurityAlgorithms.HmacSha256));
             return new JwtSecurityTokenHandler().WriteToken(jwt);
         }
     }

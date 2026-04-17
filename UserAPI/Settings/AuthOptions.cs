@@ -5,10 +5,8 @@ namespace UserAPI.Settings
 {
     public class AuthOptions
     {
-        public const string ISSUER = "UserService";
-        public const string AUDIENCE = "FlightService";
-        const string KEY = "YwLMG7gvyAc4iZaMmhPegTH4wDE9N21k";
-        public static SymmetricSecurityKey GetSymmetricSecurityKey() =>
-            new SymmetricSecurityKey(Encoding.UTF8.GetBytes(KEY));
+        public string Issuer { get; set; } = string.Empty;
+        public string Audience { get; set; } = string.Empty;
+        public string Key { get; set; } = string.Empty;
     }
 }

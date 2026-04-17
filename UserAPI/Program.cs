@@ -9,8 +9,11 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.IdentityModel.Tokens.Jwt;
 using Microsoft.IdentityModel.JsonWebTokens;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
+
+var blacklistCounter = Metrics.CreateCounter("auth_blacklist_blocked_total", "Количество заблокированных токенов из черного списка");
 
 var kafkaSettingsSection = builder.Configuration.GetSection("KafkaConfig");
 builder.Services.Configure<KafkaSettings>(kafkaSettingsSection);
@@ -33,6 +36,7 @@ builder.Services.AddSingleton<IProducer<Null, string>>(sp =>
 builder.Services.AddSingleton<IUserService, UserService>();
 builder.Services.AddSingleton<ITokenBlackListService, TokenBlackListService>();
 builder.Services.AddScoped<ITokenService, TokenService>();
+builder.Services.Configure<AuthOptions>(builder.Configuration.GetSection("JwtSettings"));
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
@@ -68,6 +72,8 @@ builder.Services.Configure<UsersDBSettings>(
 builder.Services.Configure<KafkaSettings>(
     builder.Configuration.GetSection("KafkaConfig"));
 
+var jwtSettings = builder.Configuration.GetSection("JwtSettings").Get<AuthOptions>();
+
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
@@ -75,11 +81,11 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         options.TokenValidationParameters = new TokenValidationParameters
         {
             ValidateIssuer = true,
-            ValidIssuer = AuthOptions.ISSUER,
+            ValidIssuer = jwtSettings.Issuer,
             ValidateAudience = true,
-            ValidAudience = AuthOptions.AUDIENCE,
+            ValidAudience = jwtSettings.Audience,
             ValidateLifetime = true,
-            IssuerSigningKey = AuthOptions.GetSymmetricSecurityKey(),
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettings.Key)),
             ValidateIssuerSigningKey = true
         };
         options.Events = new JwtBearerEvents
@@ -90,6 +96,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 var token = ((JsonWebToken)context.SecurityToken).EncodedToken;
                 if (await blacklistService.IsTokenBlackListedAsync(token))
                 {
+                    blacklistCounter.Inc();
                     context.Fail("Token is blacklisted: user logged out");
                 }
             }
